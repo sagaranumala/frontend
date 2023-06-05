@@ -1,0 +1,120 @@
+.container-add{
+    
+    display: flex;
+    flex-direction: column;
+}
+.add-scenario{
+    color: white;
+}
+.headding{
+    display: block;
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.scenario-name1{
+    display: block;
+    height: 25px;
+    width: 220px;
+    border:1px solid white;
+    border-radius: 3px;
+    color: blue;
+}
+.scenario-time1{
+    display: block;
+    height: 25px;
+    width: 220px;
+    border:1px solid white;
+    border-radius: 3px;
+}
+.scenario-time1{
+    display: block;
+}
+.input-fields{
+    @media(min-width:1281px){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+    }
+}
+.input-fields{
+    @media(max-width:1280px){
+    display: flex;
+    flex-direction:column;
+    height:200px;
+    width:400px;
+    align-items:center;
+    gap:40px;
+    };
+    @media(max-width:900px){
+    display: flex;
+    flex-direction:column;
+    height:150px;
+    width:280px;
+    align-items:center;
+    gap:20px;
+    };
+    @media(max-width:450px){
+        height: 150px;
+        width:250px;
+        display: flex;
+        flex-direction:column;
+       align-items: center;
+       gap:20px;
+    };
+    background-color: gray;
+    border-radius: 5px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.submit-btn1{
+    height: 30px;
+    width: 60px;
+    background-color:#6AF853;
+    border: none;
+    border-radius: 3px;
+}
+.reset-btn1{
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: #FF8C00;
+    border-radius: 3px;
+}
+.goback-btn1{
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    background-color: #6495ED;
+    border: none;
+    border-radius: 3px;
+}
+/* @media  screen and (max-width:900px) {
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width:600px) {
+    .reset-btn1,.goback-btn1{
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .scenario-name1,.scenario-time1{
+        width: 150px;
+    }
+} */
+/* @media(min-width:450px){
+    .container-add{
+        margin-left: 0px;
+    }
+    .input-fields{
+        width: 300px;
+    }
+} */
